@@ -1,2 +1,4 @@
 Для встановлення потрібних залежностей у вашому середовищі виконайте наступну команду:  
-``` pip install -r requirements.txt ```
+```
+pip install -r requirements.txt
+```
