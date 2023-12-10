@@ -9,7 +9,7 @@ from oct2py import Oct2Py
 def get_func():
     '''Читання формули, первісної та меж інтегрування з файлу
     '''
-    with open('variant_7.txt', 'r') as f:
+    with open('D:\KPI\ASKM\Labs\Shapovalov\Lab_2\\variant_7.txt', 'r') as f:
         lines = f.readlines()
         lower_limit = float(lines[0].strip())
         upper_limit = float(lines[1].strip())

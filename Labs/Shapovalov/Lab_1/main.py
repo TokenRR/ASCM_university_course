@@ -54,8 +54,8 @@ def run_python():
     
     
     # Зчитування матриці A та вектора b з файлів
-    matrix_A = read_matrix('Labs\.Other\Students\Shapovalov\Lab_1\matrix.txt')
-    vector_b = read_vector('Labs\.Other\Students\Shapovalov\Lab_1\\vector.txt')
+    matrix_A = read_matrix('D:\KPI\ASKM\Labs\Shapovalov\Lab_1\matrix.txt')
+    vector_b = read_vector('D:\KPI\ASKM\Labs\Shapovalov\Lab_1\\vector.txt')
 
     if len(vector_b) != len(matrix_A):
         messagebox.showerror('ERROR', f'Помилка: Вектор b не відповідає розмірності матриці А.')
@@ -77,8 +77,8 @@ def run_python():
 def run_octave():
     """Використання Octave для завантаження даних та розв'язання системи рівнянь
     """
-    octave.eval("A = load('Labs\.Other\Students\Shapovalov\Lab_1\matrix.txt');")
-    octave.eval("b = load('Labs\.Other\Students\Shapovalov\Lab_1\\vector.txt');")
+    octave.eval("A = load('D:\KPI\ASKM\Labs\Shapovalov\Lab_1\matrix.txt');")
+    octave.eval("b = load('D:\KPI\ASKM\Labs\Shapovalov\Lab_1\\vector.txt');")
     octave.eval("x = A \\ b;")
 
     # Отримання результату з Octave
